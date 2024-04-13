@@ -1,0 +1,36 @@
+@import './font.css';
+
+.main {
+    width: 100%;
+    margin-top: 10%;
+
+}
+
+.app1_1{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 7.5%;
+}
+.app1_2{
+    width: 95%;
+    margin-left: 2%;
+    margin-top: 7.5%;
+}
+.p{
+    margin-top: 15%;
+    text-align: center;
+    font-family: 'NunitoSans';
+    font-size: 30px;
+
+}
+.p:hover {
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+.app1_3{
+    width: 95%;
+    margin-left: 2%;
+    margin-top: 10%;
+}
+.space {
+    height: 500px;
+}

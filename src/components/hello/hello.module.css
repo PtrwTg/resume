@@ -1,0 +1,109 @@
+@import './font.css';
+
+.container {
+  width: 100%;
+  height: 770px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6%;
+}
+
+.main {
+  width: 65%;
+  margin-left: 20%;
+  height: 600px;
+}
+
+.hello {
+  font-size: 80px;
+  font-family: 'NunitoSans';
+}
+
+.name {
+  font-size: 200px;
+  margin-left: 1rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.lname {
+  font-size: 200px;
+  margin-left: 40%;
+  font-family: 'Inter', sans-serif;
+}
+
+.underline {
+  border-bottom: 5px solid #6C6C6C;
+  width: 99%;
+  margin-top: 2rem;
+}
+
+.position {
+  font-size: 70px;
+  font-family: 'NunitoSans';
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .hello {
+    font-size: 60px;
+  }
+  
+  .name,
+  .lname {
+    font-size: 150px;
+  }
+  
+  .position {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .hello {
+    font-size: 40px;
+  }
+  
+  .name,
+  .lname {
+    font-size: 120px;
+  }
+  
+  .position {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    width: 80%;
+    margin-left: 10%;
+  }
+  
+  .hello {
+    font-size: 30px;
+  }
+  
+  .name,
+  .lname {
+    font-size: 80px;
+  }
+  
+  .position {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hello {
+    font-size: 20px;
+  }
+  
+  .name,
+  .lname {
+    font-size: 60px;
+  }
+  
+  .position {
+    font-size: 20px;
+  }
+}

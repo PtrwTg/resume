@@ -1,0 +1,90 @@
+@import './font.css';
+
+.divcon {
+  width: 100%;
+  font-family: 'NunitoSans';
+}
+
+.portbut {
+  margin-top: 250px;
+  margin-left: 26%;
+  border-radius: 40px;
+  width: 50%;
+  height: 100px;
+  background-color: white;
+  font-size: 60px;
+  border: 1px solid gray;
+}
+
+.portbut:hover {
+  background: #D0E3FF;
+  border: 1px solid #D0E3FF;
+  color: #ffff;
+}
+
+@media screen and (max-width: 1200px) {
+  .htopic {
+    font-size: 40px;
+    margin-left: 25%;
+  }
+
+  .p_workex {
+    font-size: 18px;
+  }
+
+  .portbut {
+    font-size: 50px;
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .workex {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .divpex1 {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .portbut {
+    margin-left: 20%;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .htopic {
+    font-size: 30px;
+    margin-left: 20%;
+  }
+
+  .p_workex {
+    font-size: 16px;
+  }
+
+  .portbut {
+    font-size: 40px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .htopic {
+    font-size: 24px;
+    margin-left: 10%;
+  }
+
+  .p_workex {
+    font-size: 14px;
+  }
+  
+  .portbut {
+    font-size: 30px;
+    height: 50px;
+    margin-left: 10%;
+    width: 80%;
+  }
+}

@@ -1,0 +1,17 @@
+.buble1 {
+  position: absolute;
+  z-index: -1;
+  margin-top: 100px;
+  }
+  
+  
+  .buble2 {
+    position: absolute;
+    z-index: -1;
+    margin-left: 85%;
+    margin-top: -150px;
+    }
+
+    .buble3{
+      position: absolute;
+    }

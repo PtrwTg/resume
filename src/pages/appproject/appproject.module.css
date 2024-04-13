@@ -1,0 +1,46 @@
+@import './font.css';
+
+.main{
+    height: 1000px;
+    width: 100%;
+    margin-top: 20%;
+}
+.choice{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 15%;
+    font-family: 'NunitoSans';
+    font-weight: 600;
+    font-size: 20px;
+        
+}
+.margin1{
+  margin-left: 20%;
+}
+.margin2{
+  margin-left: 25%;
+}
+.margin3{
+  margin-left: 27%;
+}
+.margin1,.margin2,.margin3{
+  margin-top: 20%;
+}
+
+.app1img,.app2img,.app3img{
+    width: 70%;
+    transition: box-shadow 0.3s ease;
+    border-radius: 30px;
+}
+
+
+.app1img:hover {
+    box-shadow: 0 20px 15px rgba(203, 146, 15, 0.4);
+  }
+  .app2img:hover{
+    box-shadow: 0 20px 15px rgba(13, 123, 192, 0.4);
+  }
+  .app3img:hover{
+    box-shadow: 0 20px 15px rgba(195, 29, 203, 0.4);
+  }
+

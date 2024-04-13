@@ -1,0 +1,80 @@
+@import './font.css';
+
+.main {
+  margin-top: 17.5%;
+  height: 1000px;
+  width: 100%;
+}
+
+.choice {
+  display: flex;
+  margin-top: 10%;
+  scroll-behavior: smooth;
+  justify-content: center;
+}
+
+.choice p {
+  text-align: center;
+  margin-top: 20%;
+}
+
+.appimg,
+.webimg {
+  width: 70%;
+  transition: box-shadow 0.3s ease;
+  border-radius: 30px;
+  margin-left: 17.5%;
+}
+
+.appimg:hover,
+.webimg:hover {
+  box-shadow: 0 20px 15px rgba(7, 65, 96, 0.4);
+}
+
+@media screen and (max-width: 1200px) {
+  .main {
+    margin-top: 20%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .main {
+    margin-top: 25%;
+  }
+
+  .appimg,
+  .webimg {
+    width: 80%;
+    margin-left: 12.5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    margin-top: 30%;
+    height: auto;
+  }
+
+  .choice {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .appimg,
+  .webimg {
+    width: 90%;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main {
+    margin-top: 40%;
+  }
+
+  .appimg,
+  .webimg {
+    width: 100%;
+  }
+}

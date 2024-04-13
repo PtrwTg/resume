@@ -1,0 +1,183 @@
+@import './font.css';
+
+.container {
+  width: 100%;
+  height: 800px;
+  font-family: 'NunitoSans';
+  margin-top: -10%;
+}
+
+.main {
+  display: grid;
+  margin-top: 150px;
+}
+
+.pabout {
+  font-size: 40px;
+  margin-left: 8%;
+}
+
+.underline {
+  border-bottom: 5px solid #6C6C6C;
+  width: 57.5%;
+  margin-left: 8%;
+}
+
+.profile {
+  margin-top: 20px;
+  margin-left: 7.5%;
+  display: flex;
+}
+
+.profileimg {
+  margin-top: 3%;
+  width: 40%;
+  height: 70%;
+  border-radius: 40%;
+  border-color: black;
+  border: 5px;
+}
+
+.pprofile {
+  margin-top: 5%;
+  margin-left: 1%;
+  font-size: 20px;
+  width: 50%;
+  & p {
+    text-align: justify;
+  }
+}
+
+.presume {
+  font-size: 40px;
+  margin-left: 45%;
+}
+
+.divresume {
+  margin-left: 65%;
+}
+
+.resume {
+  width: 80%;
+  height: 250px;
+}
+
+.divbutton {
+  margin-top: -70px;
+  margin-left: -17.5%;
+  position: relative;
+}
+
+.circle_button {
+  width: 30%;
+  height: 80px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  border: 1px solid black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #6C6C6C;
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+.circle_button:hover {
+  background: #FFFFFF;
+  border: 1px solid #D0E3FF;
+  color: #D0E3FF;
+}
+
+.circle_button:active {
+  background: white;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.circle_button svg {
+  width: 40%;
+  height: 40%;
+  transition: color 0.3s ease;
+}
+
+.circle_button:hover svg {
+  color: #D0E3FF;
+}
+
+@media screen and (max-width: 1200px) {
+  .pabout,
+  .presume {
+    font-size: 32px;
+  }
+
+  .pprofile {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .profile {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profileimg {
+    width: 50%;
+  }
+
+  .pprofile {
+    margin-top: 20px;
+    width: 80%;
+  }
+
+  .presume {
+    margin-left: 30%;
+  }
+
+  .divresume {
+    margin-left: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pabout,
+  .presume {
+    font-size: 28px;
+  }
+
+  .pprofile {
+    font-size: 20px;
+  }
+
+  .divresume {
+    margin-left: 40%;
+  }
+
+  .resume {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .pabout,
+  .presume {
+    font-size: 24px;
+  }
+
+  .pprofile {
+    font-size: 16px;
+  }
+
+  .divresume {
+    margin-left: 20%;
+  }
+
+  .resume {
+    width: 80%;
+  }
+
+  .circle_button {
+    width: 25%;
+    height: 80px;
+  }
+}
