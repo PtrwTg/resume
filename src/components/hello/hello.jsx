@@ -9,7 +9,7 @@ function hello() {
             <h1 className={styles.name}>Ptrw</h1>
             <h1 className={styles.lname}>Tiger</h1>
             <div className={styles.underline}></div>
-            <p className={styles.position}>Software engineer</p>
+            <p className={styles.position}>Software Engineer</p>
         </div>
     </div>
   )

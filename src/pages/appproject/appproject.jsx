@@ -13,10 +13,11 @@ function AppProject() {
       <Bluenavbar />
       <main className={styles.main}>
         <div className={styles.choice}>
-          <div><Link to="/app1">
+          <div>
+            <Link to="/app1">
             <img className={styles.app1img} src={App1} alt="" />
-            <p className={styles.margin1}>JournalMood</p>
           </Link>
+          <p className={styles.margin1}>JournalMood</p>
           </div>
           <div>
           <Link to="/app2">
