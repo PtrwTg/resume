@@ -44,3 +44,25 @@
     box-shadow: 0 20px 15px rgba(195, 29, 203, 0.4);
   }
 
+
+  @media (max-width: 768px) {
+    
+  
+    .choice {
+      margin-top: 40%;
+      font-size: 16px;
+      display: grid;
+    }
+  
+    .app1img,
+    .app2img,
+    .app3img {
+      width: 80%;
+    }
+    .margin1,.margin2,.margin3{
+      margin-top: 5%;
+      margin-bottom: 10%;
+      margin-left: -15%;
+      text-align: center;
+    }
+  }

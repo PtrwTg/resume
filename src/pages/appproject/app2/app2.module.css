@@ -16,3 +16,12 @@
 .space {
     height: 500px;
 }
+
+@media (max-width: 768px){
+    .app2_1{
+        margin-top: 20%;
+    }
+    .space{
+        height: 0px;
+    }
+}

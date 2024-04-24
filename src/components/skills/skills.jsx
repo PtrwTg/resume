@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './skills.module.css'
-import skillsimg from './skillsimg.svg'
 import { BiLogoPython,BiLogoAws,BiLogoDocker,BiLogoJava,BiSolidFileHtml,BiLogoCss3,BiLogoJavascript,BiLogoGoLang,BiLogoReact,BiLogoVuejs,BiLogoTailwindCss,BiLogoFlutter } from "react-icons/bi";
 import { SiDart,SiFastapi,SiGrafana,SiPrometheus } from "react-icons/si";
 import { FaNode,FaGithub,FaLinux } from "react-icons/fa6";

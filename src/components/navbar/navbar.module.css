@@ -40,19 +40,7 @@ li {
   margin-right: 5%;
 }
 
-@media screen and (max-width: 768px) {
-  .navbar {
-    height: 80px;
-  }
-  
-  .menu {
-    width: 75%;
-  }
-  
-  a {
-    font-size: 1rem;
-  }
-}
+
 
 @media screen and (max-width: 480px) {
   .navbar {
@@ -64,6 +52,6 @@ li {
   }
   
   a {
-    font-size: 0.9rem;
+    font-size: 20px;
   }
 }

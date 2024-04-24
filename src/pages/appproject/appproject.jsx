@@ -13,19 +13,19 @@ function AppProject() {
       <Bluenavbar />
       <main className={styles.main}>
         <div className={styles.choice}>
-          <div>
+          <div className={styles.selectchoice}>
             <Link to="/app1">
             <img className={styles.app1img} src={App1} alt="" />
           </Link>
           <p className={styles.margin1}>JournalMood</p>
           </div>
-          <div>
+          <div  className={styles.selectchoice}>
           <Link to="/app2">
             <img className={styles.app2img} src={App2} alt="" />
           </Link>
           <p className={styles.margin2}>Wonder</p>
           </div>
-          <div>
+          <div  className={styles.selectchoice}>
           <Link to="/app3">
             <img className={styles.app3img} src={App3} alt="" />
           </Link>

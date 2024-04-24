@@ -46,20 +46,24 @@
 
 @media screen and (max-width: 480px) {
   .hello {
-    font-size: 20px;
+    font-size: 30px;
+    margin-top: 60%;
   }
   .main {
     height: 300px;
   }
   .name,
   .lname {
+    margin-top: 25px;
     font-size: 60px;
   }
   
   .position {
-    font-size: 20px;
+    font-size: 30px;
+    margin-top: 25%;
+    font-weight: bold;
   }
   .container {
-    height: 300px;
+    height: 600px;
   }
 }

@@ -39,40 +39,7 @@
   margin-left: 7%;
 }
 
-@media screen and (max-width: 1200px) {
-  .container {
-    font-size: 50px;
-  }
-}
 
-@media screen and (max-width: 992px) {
-  .container {
-    font-size: 40px;
-  }
-  
-  .pskill {
-    margin-left: 43%;
-  }
-  
-  .skillsimg {
-    margin-left: 26%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .container {
-    font-size: 30px;
-  }
-  
-  .pskill {
-    margin-left: 40%;
-  }
-  
-  .skillsimg {
-    margin-left: 20%;
-    width: 60%;
-  }
-}
 
 @media screen and (max-width: 480px) {
   .container {
@@ -80,11 +47,13 @@
   }
   
   .pskill {
-    margin-left: 35%;
+    font-size: 25px;
   }
   
   .skillsimg {
     margin-left: 10%;
     width: 80%;
   }
+  
+  
 }

@@ -194,4 +194,8 @@ p {
   .divcontact {
     font-size: 12px;
   }
+  .container {
+    height: 400px;
+    margin-top: 25%;
+  }
 }
