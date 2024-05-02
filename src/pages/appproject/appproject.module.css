@@ -8,29 +8,24 @@
 .choice{
     display: flex;
     margin-top: 10%;
-    margin-left: 15%;
     font-family: 'NunitoSans';
     font-weight: 600;
     font-size: 20px;
-        
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
 }
-.margin1{
-  margin-left: 20%;
+.selectchoice{
+  max-width: 25%;
+  margin-left: 5%;
 }
-.margin2{
-  margin-left: 25%;
-}
-.margin3{
-  margin-left: 27%;
-}
-.margin1,.margin2,.margin3{
-  margin-top: 20%;
-}
-
 .app1img,.app2img,.app3img{
-    width: 70%;
+    width: 100%;
     transition: box-shadow 0.3s ease;
     border-radius: 30px;
+}
+.papp{
+  text-align: center;
 }
 
 

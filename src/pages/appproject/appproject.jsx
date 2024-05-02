@@ -17,19 +17,19 @@ function AppProject() {
             <Link to="/app1">
             <img className={styles.app1img} src={App1} alt="" />
           </Link>
-          <p className={styles.margin1}>JournalMood</p>
+          <p className={styles.papp}>JournalMood</p>
           </div>
           <div  className={styles.selectchoice}>
           <Link to="/app2">
             <img className={styles.app2img} src={App2} alt="" />
           </Link>
-          <p className={styles.margin2}>Wonder</p>
+          <p className={styles.papp}>Wonder</p>
           </div>
           <div  className={styles.selectchoice}>
           <Link to="/app3">
             <img className={styles.app3img} src={App3} alt="" />
           </Link>
-          <p className={styles.margin3}>Pocket</p>
+          <p className={styles.papp}>Pocket</p>
           </div>
         </div>
       </main>
