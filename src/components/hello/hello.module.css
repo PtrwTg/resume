@@ -15,20 +15,23 @@
 }
 
 .hello {
-  font-size: 5rem;
+  font-size: 4rem;
   font-family: 'NunitoSans';
 }
 
 .name {
-  font-size: 200px;
-  margin-left: 1rem;
+  font-size: 15rem;
+  text-align: left;
   font-family: 'Inter', sans-serif;
+  letter-spacing: 2rem;
 }
 
 .lname {
-  font-size: 200px;
-  margin-left: 40%;
+  font-size: 15rem;
   font-family: 'Inter', sans-serif;
+  text-align: end;
+  letter-spacing: 2rem;
+
 }
 
 .underline {

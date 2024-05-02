@@ -51,6 +51,7 @@ function Contact() {
             onClick={() => copyToClipboard('mawzaz0002')}
           />
         </p>
+        <p>tel : 0838152351</p>
       </div>
     </div>
   );
